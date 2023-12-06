@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+body,td,th {
+    color: #FFFFFF;
+}
+body {
+    background-color: #DC2629;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('1.1.png','2.1.png','3.1.png','4.1.png','5.1.png')">
+<h1 style="text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">  El taller navideño </h1>
+<p style="text-align: justify; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif; font-size: 24px;">El taller navideño ubicado en Tlalpujahua, Michoacán es una tienda de artesanías navideñas en dónde podrás encontrar esferas, árboles, luces, llaveros, ropa y muchas otras cosas interesantes que podrás llevar a tu casa y adquirir ahí mismo. Estamos hubicados en ALLENDE 10, Tlalpujahua, Mexico. </p>
+<p>&nbsp;</p>
+  <table width="662" height="330" border="0" align="center">
+  <tbody>
+    <tr>
+      <td style="text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;">NOMBRE<span style="text-align: center"></span></td>
+      <td style="text-align: center">IMAGEN</td>
+      <td style="text-align: center">PRECIO</td>
+    </tr>
+    <tr>
+      <td>Esfereas Nochebuena</td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','1.1.png',1)"><img src="1.png" alt="" width="300" height="300" id="Image1"></a></td>
+      <td>$300 caja con 6 pz.</td>
+    </tr>
+    <tr>
+      <td>Arbolito de navidad (sin decorar)</td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','2.1.png',1)"><img src="2.png" alt="" width="299" height="331" id="Image2"></a></td>
+      <td><p>$6,000</p></td>
+    </tr>
+    <tr>
+      <td>Botas Navideñas</td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','3.1.png',1)"><img src="3.png" alt="" width="308" height="332" id="Image3"></a></td>
+      <td>$100 c/u</td>
+    </tr>
+    <tr>
+      <td>Esferas de Mariposa Monarca</td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','4.1.png',1)"><img src="4..png" alt="" width="328" height="299" id="Image4"></a></td>
+      <td>$300 la caja con 6 pz</td>
+    </tr>
+    <tr>
+      <td>Muñequito navideño </td>
+      <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','5.1.png',1)"><img src="5.png" alt="" width="333" height="312" id="Image5"></a></td>
+      <td>$60 c/u</td>
+    </tr>
+  </tbody>
+</table>
+<p style="color: #F49193">&nbsp;</p>
+<p style="color: #F47173">&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
